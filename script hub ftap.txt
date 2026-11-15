@@ -17735,7 +17735,7 @@ do
 							CustomLine = "Chain 2",
 							CustomCrosshairSize = 32,
 							CustomCrosshairColor = Color3.new(1, 1, 1),
-							CustomBlackhole = "rbxassetid://9920612764",
+							CustomBlackhole = "rbxassetid://12987165222",
 							CustomBHColor = Color3.new(1, 1, 1),
 							CursorIconSize = 20,
 							CursorIconColor = Color3.new(1, 1, 1),
