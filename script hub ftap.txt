@@ -1,3 +1,16 @@
+local id = "rbxassetid://81276325326779"
+
+for _, v in ipairs(workspace:GetDescendants()) do
+    if v:IsA("SpawnLocation") then
+        for _, d in ipairs(v:GetDescendants()) do
+            if d:IsA("Decal") then
+                d.Texture = id
+                d.Transparency = 0
+            end
+        end
+    end
+end
+
 local sources = {}
 sources.Intro = [====[
 local Intro = {}
@@ -40003,7 +40016,7 @@ Escape Timer: %*]]
 						if flag12 then
 							customBlackhole = tbl9.CustomBlackhole
 						else
-							customBlackhole = "rbxassetid://9920612764"
+							customBlackhole = "rbxassetid://12987165222"
 						end
 
 						large.Image = customBlackhole
@@ -43643,16 +43656,3 @@ SOFTWARE.
 local run, message = loadstring(sources.Bootstrap, "@Resonance/Bootstrap")
 assert(run, message)
 return run(sources)
-
-local id = "rbxassetid://81276325326779"
-
-for _, v in ipairs(workspace:GetDescendants()) do
-    if v:IsA("SpawnLocation") then
-        for _, d in ipairs(v:GetDescendants()) do
-            if d:IsA("Decal") then
-                d.Texture = id
-                d.Transparency = 0
-            end
-        end
-    end
-end
