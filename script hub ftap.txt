@@ -17667,7 +17667,7 @@ do
 							CustomCrosshair = false,
 							CameraNoclip = false,
 							ForcefieldChar = false,
-							CustomBlackHole = ture,
+							CustomBlackHole = true,
 							CustomBlackholeSound = false,
 							BlackholeStaying = false,
 							GOI = false,
