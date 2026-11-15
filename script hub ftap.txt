@@ -40071,7 +40071,7 @@ Escape Timer: %*]]
 
 		v23:AddInput("BlackholeLink", {
 			Text = "Image Link/ID",
-			ClearTextOnFocus = false,
+			ClearTextOnFocus = ture,
 			Callback = function(arg)
 				tbl12.ResolveAssetInput(arg, "BlackholeImage", "image", function(customBlackhole)
 					tbl9.CustomBlackhole = customBlackhole
